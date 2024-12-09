@@ -29,6 +29,9 @@ function nutriApp() {
             listElement.appendChild(liElement);
         })
     })
+    .catch(() => {
+        console.log("Algum erro ocorreu");
+    }) 
 }
 
 nutriApp();
